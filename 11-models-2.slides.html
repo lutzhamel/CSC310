@@ -12022,14 +12022,14 @@ a.anchor-link {
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>if Petal.Length =&lt; 2.5999999046325684: 
+<pre>if Petal.Width =&lt; 0.699999988079071: 
   |then setosa
-  |else if Petal.Width =&lt; 1.6500000953674316: 
+  |else if Petal.Length =&lt; 5.050000190734863: 
   |  |then versicolor
   |  |else virginica
 &lt;----&gt;
 Tree Depth:  2
-Accuracy: 0.96
+Accuracy: 0.9333333333333333
 </pre>
 </div>
 </div>
@@ -12174,40 +12174,40 @@ Name: sex, dtype: int64</pre>
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>if viscera weight =&lt; 0.1537500023841858: 
+<pre>if viscera weight =&lt; 0.14374999701976776: 
   |then if rings =&lt; 8.5: 
-  |  |then if viscera weight =&lt; 0.09174999594688416: 
-  |  |  |then if rings =&lt; 6.5: 
+  |  |then if shell weight =&lt; 0.11550000309944153: 
+  |  |  |then if height =&lt; 0.12250000238418579: 
   |  |  |  |then I
   |  |  |  |else I
-  |  |  |else if shucked weight =&lt; 0.2932499945163727: 
-  |  |  |  |then I
-  |  |  |  |else M
-  |  |else if rings =&lt; 10.5: 
-  |  |  |then if length =&lt; 0.5074999928474426: 
+  |  |  |else if shucked weight =&lt; 0.1667500138282776: 
   |  |  |  |then I
   |  |  |  |else I
-  |  |  |else if viscera weight =&lt; 0.08924999833106995: 
+  |  |else if rings =&lt; 9.5: 
+  |  |  |then if length =&lt; 0.45249998569488525: 
   |  |  |  |then I
+  |  |  |  |else I
+  |  |  |else if diameter =&lt; 0.2874999940395355: 
+  |  |  |  |then M
   |  |  |  |else F
-  |else if whole weight =&lt; 1.0022499561309814: 
-  |  |then if viscera weight =&lt; 0.22025001049041748: 
-  |  |  |then if shucked weight =&lt; 0.242000013589859: 
+  |else if whole weight =&lt; 0.9742499589920044: 
+  |  |then if viscera weight =&lt; 0.17675000429153442: 
+  |  |  |then if length =&lt; 0.5174999833106995: 
+  |  |  |  |then M
+  |  |  |  |else M
+  |  |  |else if whole weight =&lt; 0.7860000133514404: 
   |  |  |  |then F
   |  |  |  |else M
-  |  |  |else if diameter =&lt; 0.4675000011920929: 
+  |  |else if whole weight =&lt; 1.3337500095367432: 
+  |  |  |then if viscera weight =&lt; 0.2902500033378601: 
+  |  |  |  |then M
+  |  |  |  |else F
+  |  |  |else if shucked weight =&lt; 0.8730000257492065: 
   |  |  |  |then F
-  |  |  |  |else F
-  |  |else if shucked weight =&lt; 0.9147499799728394: 
-  |  |  |then if viscera weight =&lt; 0.28025001287460327: 
-  |  |  |  |then M
-  |  |  |  |else F
-  |  |  |else if height =&lt; 0.19249999523162842: 
-  |  |  |  |then M
   |  |  |  |else M
 &lt;----------&gt;
 Tree Depth:  4
-Accuracy: 0.5260890378171373
+Accuracy: 0.5610339875538535
 </pre>
 </div>
 </div>
@@ -12268,7 +12268,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |then if height =&lt; 0.03750000149011612: 
   |  |  |  |  |  |  |  |  |then if rings =&lt; 4.5: 
   |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.11749999970197678: 
+  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.1574999988079071: 
   |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.016499999910593033: 
@@ -12284,21 +12284,21 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 4.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.04749999940395355: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.011250000447034836: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.03400000184774399: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.015249999240040779: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.008249999955296516: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.026999998837709427: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |else if height =&lt; 0.0625: 
   |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.09650000184774399: 
   |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.03225000202655792: 
-  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.26499998569488525: 
+  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.020750001072883606: 
   |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.06399999558925629: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.024250000715255737: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.17750000953674316: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |else I
@@ -12308,7 +12308,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.02524999901652336: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.20499999821186066: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.0377499982714653: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.09324999898672104: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |else M
@@ -12322,7 +12322,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.20250000059604645: 
   |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.2824999988079071: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.0925000011920929: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.05375000089406967: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |else M
@@ -12335,9 +12335,9 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.026250001043081284: 
   |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.07750000059604645: 
-  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.0430000014603138: 
+  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.030500000342726707: 
   |  |  |  |  |  |  |  |  |then if rings =&lt; 7.5: 
   |  |  |  |  |  |  |  |  |  |then M
@@ -12353,7 +12353,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.09974999725818634: 
   |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.03375000134110451: 
-  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.07249999791383743: 
+  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.2097499966621399: 
   |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.3075000047683716: 
   |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.1469999998807907: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then I
@@ -12368,7 +12368,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.23250000178813934: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.04725000262260437: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.03424999862909317: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.21250000596046448: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 7.5: 
@@ -12381,8 +12381,8 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.24250000715255737: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.3174999952316284: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.035499997437000275: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.035499997437000275: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.3199999928474426: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
@@ -12390,17 +12390,17 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.32749998569488525: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 5.5: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.03674999997019768: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.085999995470047: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.041749998927116394: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.07375000417232513: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.2574999928474426: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.0949999988079071: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.18324999511241913: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.0989999994635582: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.22325000166893005: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.19350001215934753: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.1862500011920929: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
@@ -12413,11 +12413,11 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.04150000214576721: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.24149999022483826: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.09749999642372131: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.04325000196695328: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.09749999642372131: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |else if diameter =&lt; 0.30250000953674316: 
@@ -12426,22 +12426,22 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.22299998998641968: 
   |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 7.5: 
+  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.08749999850988388: 
   |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |else if height =&lt; 0.09749999642372131: 
   |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.26749998331069946: 
   |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.26249998807907104: 
-  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.039000000804662704: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.07899999618530273: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.3349999785423279: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.0625: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.06724999845027924: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.3425000011920929: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.3474999964237213: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 7.0: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.08750000596046448: 
   |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.27775001525878906: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.07099999487400055: 
@@ -12457,17 +12457,17 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 6.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.2824999988079071: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.359499990940094: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.15474998950958252: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.10875000059604645: 
-  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.27925002574920654: 
+  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 7.5: 
+  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.08675000071525574: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.29500001668930054: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.3774999976158142: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |else if length =&lt; 0.3774999976158142: 
   |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |else F
@@ -12498,7 +12498,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.4325000047683716: 
+  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.33249998092651367: 
   |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |else I
@@ -12506,20 +12506,20 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |else if shucked weight =&lt; 0.25550001859664917: 
   |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.17524999380111694: 
   |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.42899999022483826: 
-  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.11800000071525574: 
-  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.08749999850988388: 
-  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.08749999850988388: 
+  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.11800000071525574: 
+  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.35249999165534973: 
-  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.4362499713897705: 
+  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.18549999594688416: 
   |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.08949999511241913: 
-  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.2434999942779541: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 7.5: 
+  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.14900000393390656: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |else M
   |  |  |  |  |else if height =&lt; 0.12250000238418579: 
@@ -12533,17 +12533,17 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.07125000655651093: 
   |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.20600000023841858: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.08750000596046448: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.44749999046325684: 
+  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.2900000214576721: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.20600000023841858: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.14274999499320984: 
   |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |else if diameter =&lt; 0.3425000011920929: 
   |  |  |  |  |  |  |  |then if whole weight =&lt; 0.382999986410141: 
-  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.3125: 
+  |  |  |  |  |  |  |  |  |then if length =&lt; 0.4124999940395355: 
   |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |else M
@@ -12553,17 +12553,17 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.3774999976158142: 
   |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.14949999749660492: 
-  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |else if viscera weight =&lt; 0.08275000005960464: 
-  |  |  |  |  |  |  |then if length =&lt; 0.38749998807907104: 
+  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.09125000238418579: 
+  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |else if shucked weight =&lt; 0.18150000274181366: 
+  |  |  |  |  |  |  |then if shell weight =&lt; 0.08750000596046448: 
   |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |else if diameter =&lt; 0.32249999046325684: 
-  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |else if rings =&lt; 7.5: 
+  |  |  |  |  |  |  |  |else if height =&lt; 0.1274999976158142: 
+  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.11225000023841858: 
   |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |else I
   |  |  |else if whole weight =&lt; 0.6389999985694885: 
   |  |  |  |then if shucked weight =&lt; 0.15575000643730164: 
@@ -12589,11 +12589,11 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.20024999976158142: 
   |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.13625000417232513: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.45750001072883606: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.1302500069141388: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.09825000166893005: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.19300000369548798: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.10750000178813934: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |else I
@@ -12601,7 +12601,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.2057500034570694: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.10750000178813934: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.14350000023841858: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.45499998331069946: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |else F
@@ -12617,35 +12617,35 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.1394999921321869: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.5037499666213989: 
+  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 6.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.3725000023841858: 
   |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.22075000405311584: 
   |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.21150000393390656: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.21024999022483826: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.1574999988079071: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.10750000178813934: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.6115000247955322: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.16975000500679016: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.22100000083446503: 
   |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.2357499897480011: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.5867500305175781: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.3824999928474426: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |else if whole weight =&lt; 0.5839999914169312: 
-  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.0949999988079071: 
+  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.11924999952316284: 
   |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.13750000298023224: 
   |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.42250001430511475: 
+  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 7.5: 
   |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |else if viscera weight =&lt; 0.10725000500679016: 
@@ -12663,11 +12663,11 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.47749999165534973: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.10074999928474426: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.38749998807907104: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.09524999558925629: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.24575001001358032: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.5099999904632568: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.10050000250339508: 
   |  |  |  |  |  |  |  |  |  |  |  |then I
@@ -12697,8 +12697,8 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.5224999785423279: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.2565000057220459: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.13574999570846558: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.5755000114440918: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.14750000834465027: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
@@ -12715,9 +12715,9 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.1782499998807907: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.17249999940395355: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.5199999809265137: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.1210000067949295: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.25174999237060547: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.5759999752044678: 
@@ -12728,16 +12728,16 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.14675000309944153: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.5889999866485596: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.17399999499320984: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.48750001192092896: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.29224997758865356: 
-  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.3700000047683716: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.14249999821186066: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |else if rings =&lt; 7.5: 
   |  |  |  |  |then if length =&lt; 0.47749999165534973: 
@@ -12752,38 +12752,40 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.16124999523162842: 
   |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |else if rings =&lt; 6.5: 
-  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |else if diameter =&lt; 0.4449999928474426: 
+  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |else I
   |  |  |  |  |else if shucked weight =&lt; 0.39925000071525574: 
   |  |  |  |  |  |then if length =&lt; 0.5375000238418579: 
   |  |  |  |  |  |  |then if shucked weight =&lt; 0.31450000405311584: 
   |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.2952499985694885: 
-  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.3774999976158142: 
+  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.18649999797344208: 
   |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |else if length =&lt; 0.5149999856948853: 
-  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.5325000286102295: 
-  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.13824999332427979: 
+  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.4124999940395355: 
+  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.12999999523162842: 
+  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |else if shell weight =&lt; 0.1537500023841858: 
-  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.6855000257492065: 
+  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.14675000309944153: 
   |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.718500018119812: 
   |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.12424999475479126: 
   |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.14750000834465027: 
+  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.18649999797344208: 
   |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.18649999797344208: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.14124999940395355: 
-  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |else if viscera weight =&lt; 0.13075000047683716: 
-  |  |  |  |  |  |  |  |then if height =&lt; 0.13249999284744263: 
+  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.19425000250339508: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.3982499837875366: 
+  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |else if shucked weight =&lt; 0.3177499771118164: 
+  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.21575000882148743: 
   |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |else I
@@ -12812,7 +12814,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |else if diameter =&lt; 0.26749998331069946: 
   |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.054999999701976776: 
-  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.054999999701976776: 
+  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.04800000041723251: 
   |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |else I
@@ -12821,24 +12823,22 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.273499995470047: 
   |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.05574999749660492: 
   |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.05900000035762787: 
-  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.31049999594688416: 
-  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.31825000047683716: 
+  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.07475000619888306: 
   |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.1574999988079071: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.3675000071525574: 
+  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.0925000011920929: 
+  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.35199999809265137: 
+  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.13224999606609344: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.05925000086426735: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.4074999988079071: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.0742499977350235: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.3682500123977661: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.1574999988079071: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.06399999558925629: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |else I
   |  |  |  |  |else M
   |  |  |  |else if whole weight =&lt; 0.7752500176429749: 
@@ -12856,7 +12856,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.10750000178813934: 
-  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.13249999284744263: 
+  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.45249998569488525: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.36250001192092896: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
@@ -12864,15 +12864,15 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.35750001668930054: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.13349999487400055: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.3449999988079071: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.16850000619888306: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.3865000009536743: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.11499999463558197: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.16574999690055847: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.35249999165534973: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.12250000238418579: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.4560000002384186: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.08399999886751175: 
@@ -12885,7 +12885,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.08550000190734863: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.1274999976158142: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.46000000834465027: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.468999981880188: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.10750000178813934: 
@@ -12896,7 +12896,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.28999999165534973: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.11149999499320984: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.5502500534057617: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.17125000059604645: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
@@ -12906,14 +12906,14 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.11749999970197678: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.19900000095367432: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.11675000190734863: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.48000001907348633: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.3675000071525574: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.16850000619888306: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.11650000512599945: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.20875000953674316: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
@@ -12935,68 +12935,64 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.2645000219345093: 
   |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.20724999904632568: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.5249999761581421: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.24674999713897705: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.5325000286102295: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.2862499952316284: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.14750000834465027: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.5274999737739563: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.7007499933242798: 
+  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.42250001430511475: 
   |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.14750000834465027: 
   |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.5174999833106995: 
-  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.14249999821186066: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.512499988079071: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.1574999988079071: 
+  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.30150002241134644: 
   |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |else if viscera weight =&lt; 0.1417500078678131: 
-  |  |  |  |  |  |  |  |then if length =&lt; 0.5149999856948853: 
-  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.7147500514984131: 
+  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.34074997901916504: 
+  |  |  |  |  |  |  |  |  |then if height =&lt; 0.12250000238418579: 
   |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |else if length =&lt; 0.5074999928474426: 
   |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.3382500112056732: 
-  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.13499999046325684: 
-  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.14425000548362732: 
+  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.5225000381469727: 
+  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |else if shell weight =&lt; 0.26999998092651367: 
+  |  |  |  |  |  |else if height =&lt; 0.17000000178813934: 
   |  |  |  |  |  |  |then if shell weight =&lt; 0.203000009059906: 
-  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.6047500371932983: 
+  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.1850000023841858: 
   |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |else F
-  |  |  |  |  |else if diameter =&lt; 0.42250001430511475: 
+  |  |  |  |  |else if shell weight =&lt; 0.226500004529953: 
   |  |  |  |  |  |then M
-  |  |  |  |  |  |else if whole weight =&lt; 0.8235000371932983: 
-  |  |  |  |  |  |  |then if viscera weight =&lt; 0.14900000393390656: 
-  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.34299999475479126: 
-  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |else if height =&lt; 0.14750000834465027: 
-  |  |  |  |  |  |  |  |then if diameter =&lt; 0.45249998569488525: 
-  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.24250000715255737: 
+  |  |  |  |  |  |else if viscera weight =&lt; 0.15775001049041748: 
+  |  |  |  |  |  |  |then if viscera weight =&lt; 0.1537500023841858: 
+  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4424999952316284: 
+  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.34299999475479126: 
   |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.8652499914169312: 
-  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |else if whole weight =&lt; 0.8277499675750732: 
+  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |else I
   |  |  |else if shucked weight =&lt; 0.07349999994039536: 
   |  |  |  |then if viscera weight =&lt; 0.035499997437000275: 
-  |  |  |  |  |then if shucked weight =&lt; 0.0625: 
+  |  |  |  |  |then if diameter =&lt; 0.24000000953674316: 
   |  |  |  |  |  |then M
   |  |  |  |  |  |else I
   |  |  |  |  |else M
@@ -13007,7 +13003,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |then if height =&lt; 0.14249999821186066: 
   |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.09074999392032623: 
   |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.08750000596046448: 
-  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.07249999791383743: 
+  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.07575000077486038: 
   |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.4325000047683716: 
@@ -13018,12 +13014,12 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.09749999642372131: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.07124999910593033: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.3675000071525574: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.0925000011920929: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.048500001430511475: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.38499999046325684: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.041749998927116394: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.10500000417232513: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.3974999785423279: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
@@ -13035,33 +13031,33 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.39249998331069946: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.11499999463558197: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.13600000739097595: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.06024999916553497: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.1392499953508377: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 10.5: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.09749999642372131: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.3842499852180481: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 10.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.10750000178813934: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.4074999988079071: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.35249999165534973: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.35249999165534973: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.12250000238418579: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.14249999821186066: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.3375000059604645: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.36299997568130493: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.07999999821186066: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.1509999930858612: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.4154999852180481: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.14274999499320984: 
@@ -13071,7 +13067,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.05674999952316284: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.13249999284744263: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.3812499940395355: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.0949999988079071: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.3824999928474426: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
@@ -13081,56 +13077,56 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.17675000429153442: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.16249999403953552: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.4309999942779541: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.195499986410141: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.4309999942779541: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.10249999910593033: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.08924999833106995: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.16999998688697815: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.4827499985694885: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.13249999284744263: 
   |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 10.5: 
   |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.2042500078678131: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.32749998569488525: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1274999976158142: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.24774999916553497: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.3824999928474426: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.09674999862909317: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.2549999952316284: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.1342500001192093: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.09724999964237213: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.1392500102519989: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.37300002574920654: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 14.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.1525000035762787: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.4675000011920929: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1274999976158142: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.10375000536441803: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.11749999970197678: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.48500001430511475: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.4625000059604645: 
   |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.13750000298023224: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.2487500011920929: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.3774999976158142: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.421750009059906: 
+  |  |  |  |  |  |  |  |  |else if rings =&lt; 12.5: 
   |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |else if whole weight =&lt; 0.5017499923706055: 
@@ -13140,22 +13136,20 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |else if length =&lt; 0.512499988079071: 
   |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.19725000858306885: 
-  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.36250001192092896: 
+  |  |  |  |  |  |  |  |  |then if length =&lt; 0.4724999964237213: 
   |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.1419999897480011: 
   |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.1705000102519989: 
   |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.11749999970197678: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.46000000834465027: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.1574999988079071: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.16749998927116394: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.17524999380111694: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 12.5: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.47724997997283936: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.484250009059906: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.35750001668930054: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.46925002336502075: 
   |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |else F
@@ -13165,7 +13159,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.12974999845027924: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.22349999845027924: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.5180000066757202: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.12999999523162842: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.4699999988079071: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.4625000059604645: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
@@ -13173,29 +13167,29 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.20024999976158142: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.12475000321865082: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.16750000417232513: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.2175000011920929: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 11.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1274999976158142: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.14250001311302185: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.35500001907348633: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.12150000035762787: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.1317499876022339: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.4625000059604645: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.4749999940395355: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.13750000298023224: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.1574999988079071: 
-  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 10.5: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.15400001406669617: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.2150000035762787: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.48750001192092896: 
@@ -13203,9 +13197,9 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.15450000762939453: 
   |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.3675000071525574: 
-  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.13824999332427979: 
+  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.13249999284744263: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.16099999845027924: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.24950000643730164: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.2434999942779541: 
@@ -13214,32 +13208,32 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 12.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.25999999046325684: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.25325000286102295: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.24849998950958252: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.12250000238418579: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.6192499995231628: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.5929999947547913: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.562250018119812: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.14350000023841858: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.12250000238418579: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.26249998807907104: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.26225000619888306: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.12000000476837158: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.14750000834465027: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.20000000298023224: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.1525000035762787: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.1574999988079071: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.2199999988079071: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 13.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.27399998903274536: 
-  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.39499998092651367: 
+  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.25575000047683716: 
   |  |  |  |  |  |  |  |  |then if length =&lt; 0.5375000238418579: 
   |  |  |  |  |  |  |  |  |  |then if rings =&lt; 10.5: 
@@ -13261,40 +13255,38 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.12999999523162842: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.6850000023841858: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.2070000022649765: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4124999940395355: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.13249999284744263: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.17675000429153442: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.29649999737739563: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 10.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.24000000953674316: 
+  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.28474998474121094: 
   |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.1394999921321869: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.42750000953674316: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.45499998331069946: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.2475000023841858: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 12.5: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.7369999885559082: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.2877500057220459: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.15049999952316284: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |else if shucked weight =&lt; 0.35224997997283936: 
   |  |  |  |  |  |  |then if whole weight =&lt; 0.7210000157356262: 
   |  |  |  |  |  |  |  |then if shell weight =&lt; 0.19474999606609344: 
   |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.41749998927116394: 
-  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.6782499551773071: 
-  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.21400000154972076: 
-  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.21400000154972076: 
+  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.4975000023841858: 
+  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.7097500562667847: 
   |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |else I
@@ -13305,9 +13297,9 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |else if rings =&lt; 11.5: 
   |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4399999976158142: 
   |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.25099998712539673: 
-  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.31075000762939453: 
+  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.4325000047683716: 
   |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |else M
@@ -13318,11 +13310,11 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |else if height =&lt; 0.14750000834465027: 
-  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.4555000066757202: 
-  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.8737499713897705: 
+  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.42250001430511475: 
+  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.8737499713897705: 
   |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |else if height =&lt; 0.1574999988079071: 
   |  |  |  |  |  |then if rings =&lt; 17.5: 
@@ -13332,14 +13324,14 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.14425000548362732: 
-  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.3425000011920929: 
+  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |else F
-  |  |  |  |  |  |else if shucked weight =&lt; 0.35600000619888306: 
-  |  |  |  |  |  |  |then if viscera weight =&lt; 0.15825000405311584: 
+  |  |  |  |  |  |else if viscera weight =&lt; 0.15825000405311584: 
+  |  |  |  |  |  |  |then if shucked weight =&lt; 0.35600000619888306: 
   |  |  |  |  |  |  |  |then if rings =&lt; 11.5: 
-  |  |  |  |  |  |  |  |  |then if length =&lt; 0.5275000333786011: 
+  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.28025001287460327: 
   |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |else M
@@ -13349,7 +13341,7 @@ Accuracy: 0.5260890378171373
   |  |then if shucked weight =&lt; 0.250249981880188: 
   |  |  |then if viscera weight =&lt; 0.1679999977350235: 
   |  |  |  |then if shucked weight =&lt; 0.21299999952316284: 
-  |  |  |  |  |then if shell weight =&lt; 0.20250000059604645: 
+  |  |  |  |  |then if whole weight =&lt; 0.5774999856948853: 
   |  |  |  |  |  |then M
   |  |  |  |  |  |else F
   |  |  |  |  |else M
@@ -13359,13 +13351,13 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |then M
   |  |  |  |  |  |else if shell weight =&lt; 0.24500000476837158: 
   |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |else if shucked weight =&lt; 0.2395000010728836: 
-  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.21849998831748962: 
-  |  |  |  |  |  |  |  |  |then if rings =&lt; 10.5: 
-  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |else if height =&lt; 0.13249999284744263: 
+  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |else if diameter =&lt; 0.4124999940395355: 
+  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.3152499794960022: 
+  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |else M
   |  |  |else if whole weight =&lt; 0.8227499723434448: 
   |  |  |  |then if length =&lt; 0.5375000238418579: 
   |  |  |  |  |then if shell weight =&lt; 0.16249999403953552: 
@@ -13384,37 +13376,37 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.1525000035762787: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.13249999284744263: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.2602500021457672: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.22749999165534973: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4074999988079071: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.21150000393390656: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.6524999737739563: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 13.5: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.281499981880188: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.265500009059906: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.21400000154972076: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.6979999542236328: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.42250001430511475: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.718999981880188: 
   |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.5049999952316284: 
-  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.7537499666213989: 
+  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.3187499940395355: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.1807500123977661: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.33924999833106995: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.17125000059604645: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4050000011920929: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 7.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.42250001430511475: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 13.0: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.5149999856948853: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.21149998903274536: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
@@ -13445,16 +13437,16 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |else if shell weight =&lt; 0.2172500044107437: 
   |  |  |  |  |  |  |  |  |then if length =&lt; 0.5475000143051147: 
-  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.44749999046325684: 
-  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.1627500057220459: 
+  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |else if shell weight =&lt; 0.2434999942779541: 
   |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |else if shell weight =&lt; 0.2800000011920929: 
   |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.1655000001192093: 
+  |  |  |  |  |  |  |  |  |else if length =&lt; 0.5525000095367432: 
   |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |else if viscera weight =&lt; 0.17875000834465027: 
@@ -13462,20 +13454,20 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |then if shell weight =&lt; 0.19600000977516174: 
   |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |else if length =&lt; 0.5774999856948853: 
-  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4325000047683716: 
-  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.550000011920929: 
-  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.7795000076293945: 
+  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.8084999918937683: 
+  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |else if whole weight =&lt; 0.7602499723434448: 
-  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.32774999737739563: 
+  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.22325000166893005: 
   |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.1772499978542328: 
   |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.21649999916553497: 
-  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.17425000667572021: 
+  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.42250001430511475: 
+  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.22299998998641968: 
   |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |else I
@@ -13485,9 +13477,9 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.5475000143051147: 
   |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1574999988079071: 
   |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 13.0: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.2574999928474426: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |else F
@@ -13499,14 +13491,14 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 8.5: 
-  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.1574999988079071: 
+  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.1574999988079071: 
+  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4399999976158142: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.18450000882148743: 
-  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.18000000715255737: 
+  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.2824999988079071: 
   |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.44749999046325684: 
@@ -13524,13 +13516,13 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |else if whole weight =&lt; 0.9185000061988831: 
   |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.19374999403953552: 
-  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.8302500247955322: 
+  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.5249999761581421: 
   |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |else if shell weight =&lt; 0.19550000131130219: 
-  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.13574999570846558: 
+  |  |  |  |  |  |  |  |then if height =&lt; 0.12999999523162842: 
   |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |else if length =&lt; 0.6075000166893005: 
@@ -13541,16 +13533,16 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.21724998950958252: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.42750000953674316: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.42250001430511475: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.421999990940094: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.15000000596046448: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.8722500205039978: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.21275000274181366: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.41075000166893005: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.8774999976158142: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.8417500257492065: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4350000023841858: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
@@ -13564,14 +13556,14 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.8497500419616699: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.8552500009536743: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.17024999856948853: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.19624999165534973: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.22850000858306885: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.42750000953674316: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.4325000047683716: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.1772499978542328: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.44749999046325684: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.4909999966621399: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
@@ -13583,9 +13575,9 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 14.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 11.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.3370000123977661: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 10.5: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.18549999594688416: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 9.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.8362500071525574: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4424999952316284: 
@@ -13605,9 +13597,9 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.44749999046325684: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.242000013589859: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.19599999487400055: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.25349998474121094: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.23874999582767487: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
@@ -13625,24 +13617,26 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.44999998807907104: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.5649999976158142: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.46399998664855957: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.9317499995231628: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.8897500038146973: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.2574999928474426: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.8372499942779541: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 10.5: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.38075000047683716: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 10.5: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.37424999475479126: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4350000023841858: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.41850000619888306: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.45249998569488525: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.23874999582767487: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.8657500147819519: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.17775000631809235: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.1525000035762787: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.2669999897480011: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.2615000009536743: 
@@ -13679,22 +13673,22 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.3109999895095825: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.21574999392032623: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 9.5: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.1822499930858612: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 10.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.2524999976158142: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.19249999523162842: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.2475000023841858: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.8612499833106995: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.5475000143051147: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.34950000047683716: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 10.5: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.21649999916553497: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.45249998569488525: 
@@ -13705,24 +13699,24 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.5575000047683716: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.32475000619888306: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.16750000417232513: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.5475000143051147: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 0.9144999980926514: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.406000018119812: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.32249999046325684: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.9832500219345093: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.320250004529953: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.1525000035762787: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.3075000047683716: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.296750009059906: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.2887499928474426: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.17750000953674316: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1574999988079071: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.21199999749660492: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.21149998903274536: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1574999988079071: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
@@ -13731,7 +13725,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.6000000238418579: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 12.0: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.29750001430511475: 
@@ -13739,17 +13733,19 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.14500001072883606: 
   |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.19475001096725464: 
+  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.39375001192092896: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.2017500102519989: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.1599999964237213: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.48250001668930054: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.375: 
-  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.45499998331069946: 
-  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.4650000035762787: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.5649999976158142: 
+  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.5550000071525574: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.28200000524520874: 
   |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.48250001668930054: 
@@ -13757,11 +13753,11 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.13499999046325684: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.17875000834465027: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.9474999904632568: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 10.5: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.17675000429153442: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.14750000834465027: 
   |  |  |  |  |  |  |  |  |  |  |then F
@@ -13781,9 +13777,9 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 0.9017499685287476: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.5575000047683716: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.2172500044107437: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.41749998927116394: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.29124999046325684: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.2147499918937683: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
@@ -13811,11 +13807,11 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |else if shell weight =&lt; 0.2667500078678131: 
   |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |else if height =&lt; 0.16499999165534973: 
-  |  |  |  |  |  |  |  |then if length =&lt; 0.6299999952316284: 
-  |  |  |  |  |  |  |  |  |then if rings =&lt; 8.5: 
-  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |then if rings =&lt; 8.5: 
+  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |else if length =&lt; 0.6299999952316284: 
+  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |else I
   |  |else if viscera weight =&lt; 0.2982500195503235: 
   |  |  |then if height =&lt; 0.20250000059604645: 
@@ -13829,7 +13825,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.2332499921321869: 
   |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.2462500035762787: 
-  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.6324999928474426: 
+  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.48250001668930054: 
   |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |else M
@@ -13837,7 +13833,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |then if height =&lt; 0.13750000298023224: 
   |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.4099999964237213: 
-  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.16750000417232513: 
+  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.4595000147819519: 
   |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.5859999656677246: 
@@ -13850,10 +13846,10 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.5440000295639038: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.6274999976158142: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.1212499141693115: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.234499990940094: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.2150000035762787: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.4625000059604645: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1574999988079071: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.5007500052452087: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.4750000238418579: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
@@ -13866,7 +13862,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.4650000035762787: 
+  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.1525000035762787: 
   |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.6062500476837158: 
@@ -13879,17 +13875,17 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.3675000071525574: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.2292499989271164: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.3149999976158142: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.343999981880188: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.0164999961853027: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.5824999809265137: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.35600000619888306: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.49000000953674316: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.36949998140335083: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.44999998807907104: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 11.0: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.18400000035762787: 
@@ -13907,26 +13903,26 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.26475000381469727: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.18000000715255737: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.5464999675750732: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.2627499997615814: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.5724999904632568: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.25824999809265137: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.43549999594688416: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.16249999403953552: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.5397499799728394: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.2134999930858612: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.25049999356269836: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.49050000309944153: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.003250002861023: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.4724999964237213: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.45375001430511475: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.2317500114440918: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 11.5: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.14249999821186066: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.0167499780654907: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.0432500839233398: 
@@ -13935,9 +13931,9 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.0985000133514404: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.4124999940395355: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.2797499895095825: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.2512499988079071: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.14500001072883606: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
@@ -13950,11 +13946,11 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.5674999952316284: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.5824999809265137: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.23025000095367432: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4650000035762787: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 9.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.0180000066757202: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.4037500023841858: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.3005000054836273: 
@@ -13963,7 +13959,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.49549999833106995: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 10.5: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.503000020980835: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
@@ -13976,34 +13972,34 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.5900000333786011: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.1599999964237213: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.22850000858306885: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.16750000417232513: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.23725000023841858: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.1067500114440918: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.1142499446868896: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.3292500078678131: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.1330000162124634: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.2017500102519989: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.3125: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 10.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 14.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1574999988079071: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.5924999713897705: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.0787500143051147: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.5674999952316284: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.45749998092651367: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.5619999766349792: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.2755000591278076: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.2889999747276306: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1574999988079071: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.2775000035762787: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.26625001430511475: 
@@ -14023,11 +14019,11 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.24924999475479126: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.4724999964237213: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.14750000834465027: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.26125001907348633: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.1917500495910645: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.49000000953674316: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.3320000171661377: 
@@ -14035,57 +14031,55 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 10.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.14750000834465027: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.1080000400543213: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4625000059604645: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.0597500801086426: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.6274999976158142: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 9.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.1705000400543213: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.32124999165534973: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.4724999964237213: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.21325001120567322: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.2747499942779541: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 9.5: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.612500011920929: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.16499999165534973: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.0450000762939453: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.4857500195503235: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.48250001668930054: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.5487500429153442: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.31800001859664917: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.4542499780654907: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.6424999833106995: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.22150000929832458: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.4925000071525574: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.5272500514984131: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.2680000066757202: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.1449999809265137: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.0605000257492065: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1574999988079071: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.1482501029968262: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4925000071525574: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.25999999046325684: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1574999988079071: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.22349999845027924: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.4897499978542328: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.2397499978542328: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.0232501029968262: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.250249981880188: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.5024999976158142: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.5199999809265137: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.1765000820159912: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.32074999809265137: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.29225000739097595: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1525000035762787: 
@@ -14108,98 +14102,94 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.3297500014305115: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.17749999463558197: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.26524999737739563: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.2947499752044678: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.1640000343322754: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.4749999940395355: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.2502500116825104: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.6274999976158142: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.5040000081062317: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.180999994277954: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.23225000500679016: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.2055000066757202: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.5792499780654907: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.512499988079071: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.4724999964237213: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.5375000238418579: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.35750001668930054: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.4855000078678131: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1574999988079071: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.24775001406669617: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.38725000619888306: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.4855000078678131: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.2409999966621399: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.225000023841858: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.5724999904632568: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.21775001287460327: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.1574999988079071: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.37975001335144043: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.0820000171661377: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.47450000047683716: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.23800000548362732: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.3672500252723694: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.0304999351501465: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4950000047683716: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.19749999046325684: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.2627499997615814: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.48750001192092896: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.5824999809265137: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.25999999046325684: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.24300000071525574: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4925000071525574: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.16750000417232513: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.3504999876022339: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 10.5: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.15625: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.4925000071525574: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.18250000476837158: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.41200000047683716: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.4767500162124634: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.24674999713897705: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.1662499904632568: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.44725000858306885: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.25475001335144043: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.25300002098083496: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.214250087738037: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.6175000071525574: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 11.5: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.1574999988079071: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.35750001668930054: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.16750000417232513: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.512499988079071: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.1574999988079071: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.5017499923706055: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 11.5: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.6025000214576721: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.6017500162124634: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.26600000262260437: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4975000023841858: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 14.0: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.2645000219345093: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.3999999761581421: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.4509999752044678: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.401750087738037: 
@@ -14212,8 +14202,8 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.29624998569488525: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.215499997138977: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 11.5: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1599999964237213: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.1857500076293945: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.27425000071525574: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.48000001907348633: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
@@ -14235,25 +14225,25 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.5024999976158142: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.3622500002384186: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.20274999737739563: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.18850000202655792: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.066499948501587: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.39499998092651367: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.44349998235702515: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.2175000011920929: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.0420000553131104: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.2750000059604645: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.14500001072883606: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.2262499332427979: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.4099999964237213: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.3474999964237213: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.5550000071525574: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4375: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.625: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
@@ -14266,33 +14256,33 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.637499988079071: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.27149999141693115: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.345750093460083: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 17.5: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.315000057220459: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1850000023841858: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.38499999046325684: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.309499979019165: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.4750000238418579: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.4882500171661377: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.2797499895095825: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.5024999976158142: 
-  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.27549999952316284: 
-  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.2892500162124634: 
+  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.5024999976158142: 
+  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |else M
   |  |  |  |  |else if viscera weight =&lt; 0.25999999046325684: 
   |  |  |  |  |  |then if shell weight =&lt; 0.30024999380111694: 
   |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |else if shucked weight =&lt; 0.6449999809265137: 
   |  |  |  |  |  |  |  |then if diameter =&lt; 0.49000000953674316: 
-  |  |  |  |  |  |  |  |  |then if rings =&lt; 10.5: 
+  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.31174999475479126: 
   |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.31174999475479126: 
+  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.4675000011920929: 
   |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.2360000610351562: 
@@ -14302,42 +14292,42 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |else if length =&lt; 0.6225000023841858: 
   |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.24774999916553497: 
-  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.4442499876022339: 
+  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.4442499876022339: 
+  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.24774999916553497: 
   |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |else if diameter =&lt; 0.5074999928474426: 
-  |  |  |  |  |  |  |then if viscera weight =&lt; 0.29475000500679016: 
-  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.34549999237060547: 
-  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.3840000629425049: 
-  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.3624999523162842: 
-  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1525000035762787: 
-  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.6324999928474426: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.3007500171661377: 
+  |  |  |  |  |  |  |then if shucked weight =&lt; 0.7272499799728394: 
+  |  |  |  |  |  |  |  |then if length =&lt; 0.6625000238418579: 
+  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.34549999237060547: 
+  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.2327499389648438: 
+  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.6324999928474426: 
+  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.6577500104904175: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.49000000953674316: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.2914999723434448: 
-  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.6232500076293945: 
-  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.2914999723434448: 
+  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.6232500076293945: 
+  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |else if viscera weight =&lt; 0.28425002098083496: 
   |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.6657500267028809: 
   |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.6295000314712524: 
-  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.3425000011920929: 
+  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.6259999871253967: 
   |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.6259999871253967: 
-  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.2750000059604645: 
+  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |else if height =&lt; 0.16750000417232513: 
-  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1599999964237213: 
+  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.5174999833106995: 
   |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |else F
@@ -14382,38 +14372,38 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.1995000839233398: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 9.5: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.4959999918937683: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.2879999876022339: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.4724999964237213: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.48750001192092896: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.5900000333786011: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.31575000286102295: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.32625001668930054: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.3082500100135803: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.2692500352859497: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.3264999985694885: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.3205000162124634: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.17249999940395355: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.5447499752044678: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.5189999938011169: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.33924999833106995: 
-  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.33500000834465027: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.4725000262260437: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else I
+  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.30524998903274536: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.3375000059604645: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 9.5: 
-  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.6475000381469727: 
-  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |else I
-  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.5212500095367432: 
+  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.5497499704360962: 
+  |  |  |  |  |  |  |  |  |  |  |  |then I
+  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.40625: 
   |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.374500036239624: 
   |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1525000035762787: 
@@ -14437,9 +14427,9 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.47749999165534973: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.5687500238418579: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 16.5: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.48649999499320984: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.1875: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 12.0: 
@@ -14448,30 +14438,30 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.36024999618530273: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.3680000305175781: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.637499988079071: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.17250001430511475: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 15.5: 
-  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.6107500195503235: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.6232500076293945: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.706250011920929: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.31725001335144043: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.6399999856948853: 
+  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.706250011920929: 
+  |  |  |  |  |  |  |  |  |  |  |  |then if rings =&lt; 15.5: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.6107500195503235: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.6232500076293945: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.31725001335144043: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.3787500858306885: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.6890000104904175: 
-  |  |  |  |  |  |  |  |  |then if height =&lt; 0.17249999940395355: 
-  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.6165000200271606: 
+  |  |  |  |  |  |  |  |  |then if length =&lt; 0.637499988079071: 
+  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.32249999046325684: 
   |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |else F
@@ -14506,37 +14496,35 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.19249999523162842: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.675000011920929: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.4482499957084656: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.44225001335144043: 
   |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.3412500023841858: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.6474999785423279: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.7649999856948853: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.4900000095367432: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.7542499899864197: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.6625000238418579: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.38499999046325684: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.6825000047683716: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.6725000143051147: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.6162500381469727: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.4520000219345093: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.5490000247955322: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 11.5: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.45399999618530273: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.3632500171661377: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.6897499561309814: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |else if rings =&lt; 14.5: 
-  |  |  |  |  |  |  |  |  |then if length =&lt; 0.637499988079071: 
-  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.5024999976158142: 
+  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.4925000667572021: 
+  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.3957499861717224: 
   |  |  |  |  |  |  |  |  |  |  |then I
   |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |else M
@@ -14561,7 +14549,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.6924999952316284: 
   |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.6499999761581421: 
   |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.2849999964237213: 
+  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.14249999821186066: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |else F
@@ -14580,7 +14568,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.7055000066757202: 
   |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.5699999928474426: 
   |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.596500039100647: 
-  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.31349998712539673: 
+  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.4142500162124634: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |  |  |else if diameter =&lt; 0.5425000190734863: 
@@ -14596,19 +14584,19 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.3942500054836273: 
   |  |  |  |  |  |  |  |  |  |  |then if shucked weight =&lt; 0.8220000267028809: 
   |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.621000051498413: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then if length =&lt; 0.6775000095367432: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |then if height =&lt; 0.1875: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |else M
-  |  |  |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.19749999046325684: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.42500001192092896: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.6875: 
   |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.3824999928474426: 
   |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |else F
-  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.7537500262260437: 
+  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.622499942779541: 
   |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |else I
   |  |  |  |  |  |  |  |else if height =&lt; 0.19749999046325684: 
@@ -14626,7 +14614,7 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |  |else if length =&lt; 0.7124999761581421: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |then if whole weight =&lt; 1.8459999561309814: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.45249998569488525: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.35725000500679016: 
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
@@ -14643,25 +14631,29 @@ Accuracy: 0.5260890378171373
   |  |  |  |  |then if shell weight =&lt; 0.624500036239624: 
   |  |  |  |  |  |then if shell weight =&lt; 0.5370000004768372: 
   |  |  |  |  |  |  |then if shucked weight =&lt; 1.0764999389648438: 
-  |  |  |  |  |  |  |  |then if height =&lt; 0.17249999940395355: 
-  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |else if viscera weight =&lt; 0.4620000123977661: 
+  |  |  |  |  |  |  |  |then if shucked weight =&lt; 1.065000057220459: 
+  |  |  |  |  |  |  |  |  |then if viscera weight =&lt; 0.4620000123977661: 
   |  |  |  |  |  |  |  |  |  |then if shell weight =&lt; 0.41449999809265137: 
   |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.9240000247955322: 
+  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.9122499823570251: 
   |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.934499979019165: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.43024998903274536: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 1.059000015258789: 
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else F
+  |  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 1.940999984741211: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |then if diameter =&lt; 0.5299999713897705: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.4397500157356262: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if rings =&lt; 11.5: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then M
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else if shucked weight =&lt; 0.9424999952316284: 
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |then F
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |  |  |  |else if height =&lt; 0.19249999523162842: 
   |  |  |  |  |  |  |  |  |  |  |then M
-  |  |  |  |  |  |  |  |  |  |  |else if shell weight =&lt; 0.5249999761581421: 
+  |  |  |  |  |  |  |  |  |  |  |else if whole weight =&lt; 2.157750129699707: 
   |  |  |  |  |  |  |  |  |  |  |  |then F
   |  |  |  |  |  |  |  |  |  |  |  |else M
+  |  |  |  |  |  |  |  |  |else F
   |  |  |  |  |  |  |  |else M
   |  |  |  |  |  |  |else if whole weight =&lt; 2.3569998741149902: 
   |  |  |  |  |  |  |  |then if height =&lt; 0.2175000011920929: 
@@ -14852,7 +14844,7 @@ Accuracy: 0.9333333333333332
 
 </div>
 </div>
-</div>
+</div></div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[11]:</div>
@@ -14928,7 +14920,7 @@ Accuracy: 0.9733333333333334
 </div>
 </div>
 
-</div></div></section></section><section><section>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -15308,7 +15300,7 @@ Name: Diagnosis, dtype: int64</pre>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># create our sklearn data</span>
@@ -15333,7 +15325,7 @@ Name: Diagnosis, dtype: int64</pre>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># print out what we found</span>
@@ -15364,9 +15356,9 @@ if perimeter3 =&lt; 105.94999694824219:
   |  |  |then if texture3 =&lt; 30.145000457763672: 
   |  |  |  |then B
   |  |  |  |else B
-  |  |  |else if symmetry3 =&lt; 0.20784999430179596: 
-  |  |  |  |then M
-  |  |  |  |else B
+  |  |  |else if smoothness1 =&lt; 0.09071999788284302: 
+  |  |  |  |then B
+  |  |  |  |else M
   |  |else if texture3 =&lt; 27.575000762939453: 
   |  |  |then if symmetry3 =&lt; 0.35785001516342163: 
   |  |  |  |then B
@@ -15377,13 +15369,13 @@ if perimeter3 =&lt; 105.94999694824219:
   |  |  |then if texture3 =&lt; 25.670000076293945: 
   |  |  |  |then B
   |  |  |  |else M
-  |  |  |else if texture2 =&lt; 0.4892500042915344: 
+  |  |  |else if texture3 =&lt; 17.530000686645508: 
   |  |  |  |then B
   |  |  |  |else M
-  |  |else if smoothness3 =&lt; 0.09975999593734741: 
-  |  |  |then if area2 =&lt; 63.654998779296875: 
-  |  |  |  |then B
-  |  |  |  |else M
+  |  |else if concave_points3 =&lt; 0.08586500585079193: 
+  |  |  |then if area2 =&lt; 45.51000213623047: 
+  |  |  |  |then M
+  |  |  |  |else B
   |  |  |else M
 &lt;----------&gt;
 Tree Depth:  4
@@ -15397,7 +15389,7 @@ Tree Depth:  4
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Evaluate the tree</span>
