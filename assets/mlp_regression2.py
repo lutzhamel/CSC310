@@ -14,7 +14,7 @@ y[::5] += 3 * (0.5 - rng.rand(16))
 
 # Fit regression model
 #regr_1 = MLPRegressor(hidden_layer_sizes=(n,), activation='logistic', max_iter=10000)
-regr_1 = MLPRegressor(hidden_layer_sizes=(n,),  max_iter=10000)
+regr_1 = MLPRegressor(hidden_layer_sizes=(n,n),  max_iter=10000)
 regr_1.fit(X, y)
 print("R^2 score: {}".format(regr_1.score(X,y)))
 

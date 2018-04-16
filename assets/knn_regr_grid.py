@@ -14,7 +14,7 @@ y[::5] += 3 * (0.5 - rng.rand(16)) # noise every 5th point
 # setting up grid search
 model = KNeighborsRegressor()
 param_grid = {'n_neighbors': list(range(1,10))}
-grid = GridSearchCV(model, param_grid, cv=5)
+grid = GridSearchCV(model, param_grid, cv=3)
 
 # performing grid search
 grid.fit(X,y)
