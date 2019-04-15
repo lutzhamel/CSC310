@@ -38,9 +38,16 @@ def _tree_rprint(kword, clf, features, labels, node_index=0, tlevel_index=0):
         print(kword, end=' ' if kword else '')
         # get the majority label
         count_list = clf.tree_.value[node_index, 0]
-        max_index, max_value = max(enumerate(count_list), key=operator.itemgetter(1))
-        max_label = labels[max_index]
-        print(max_label)
+        #lhh
+        #print("count list: {}".format(count_list))
+        if len(count_list) == 1:
+            # regression problem
+            print(count_list[0])
+        else:
+            # get the majority label
+            max_index, max_value = max(enumerate(count_list), key=operator.itemgetter(1))
+            max_label = labels[max_index]
+            print(max_label)
         return tlevel_index
     
     else:
