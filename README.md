@@ -8,3 +8,9 @@ If you make a local copy of this repo then you can see interactive versions of t
 
 ### License
 The content of these notebooks is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-sa/4.0/). Read more at [Creative Commons](https://creativecommons.org).
+
+### Online Reading
+
+[01. What is Data Science](https://github.com/lutzhamel/ds/blob/master/notes/01-What-is-Data-Science.pdf)
+
+[05. Processing Pipeline](https://nbviewer.jupyter.org/github/lutzhamel/asteroid/blob/master/notes/05-processing-pipeline.ipynb)
