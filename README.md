@@ -13,4 +13,4 @@ The content of these notebooks is released under the [CC-BY-NC-ND license](https
 
 [01. What is Data Science](https://github.com/lutzhamel/ds/blob/master/notes/01-What-is-Data-Science.pdf)
 
-[05. Processing Pipeline](https://nbviewer.jupyter.org/github/lutzhamel/asteroid/blob/master/notes/05-processing-pipeline.ipynb)
+[05. Processing Pipeline](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/05-processing-pipeline.ipynb)
