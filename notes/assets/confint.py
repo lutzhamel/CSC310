@@ -8,9 +8,10 @@ def classification_confint(acc, n):
       n   -- number of observations used to compute the accuracy
     Returns a tuple (lb,ub)
     '''
-    from statsmodels.stats.proportion import proportion_confint
-    alpha = 1 - .95 # 95% confidence interval
-    lb, ub = proportion_confint(100*acc, n, alpha)
+    import math
+    interval = 1.96*math.sqrt(acc*(1-acc)/n)
+    lb = max(0, acc - interval)
+    ub = min(1.0, acc + interval)
     return (lb,ub)
 
 def regression_confint(rs_score, n, k):
@@ -26,6 +27,6 @@ def regression_confint(rs_score, n, k):
     '''
     import math
     interval = 2*math.sqrt((4*rs_score*(1-rs_score)**2*(n-k-1)**2)/((n**2 - 1)*(n+3)))
-    lb = rs_score - interval
-    ub = rs_score + interval
+    lb = max(0, rs_score - interval)
+    ub = min(1.0, rs_score + interval)
     return (lb,ub)
