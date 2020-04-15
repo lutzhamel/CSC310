@@ -19,19 +19,19 @@ The content of these notebooks is released under the [CC-BY-NC-ND license](https
 
 ### The Basics
 [Processing Pipeline](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/05-processing-pipeline.ipynb)<br>
-[Machine Learning Basics 1](https://github.com/lutzhamel/ds/blob/master/notes/06-machine-learning-basics-1.pdf)<br>
-[Machine Learning Basics 2](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/07-machine-learning-basics-2.ipynb)<br>
+[Machine Learning Basics: Decision Trees](https://github.com/lutzhamel/ds/blob/master/notes/06-machine-learning-basics-1.pdf)<br>
+[Machine Learning Basics: Model Accuracy](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/07-machine-learning-basics-2.ipynb)<br>
 [Data Manipulation with Pandas](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/08-data-manipulation-pandas.ipynb)<br>
 [Visualization](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/09-visualization.ipynb)<br>
 
 ### Machine Learning
-[Models 1](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/10-models.ipynb)<br>
-[Models 2](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/11-models-2.ipynb)<br>
-[Models 3](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/12-models-3.ipynb)<br>
+[Models of Data: Classification and Regression](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/10-models.ipynb)<br>
+[Models Evaluating Models](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/11-models-2.ipynb)<br>
+[Confidence Intervals](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/12-models-3.ipynb)<br>
 [K Nearest Neighbor](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/13-KNN.ipynb)<br>
 [Neural Networks 1](https://github.com/lutzhamel/ds/blob/master/notes/14-ANN.pdf)<br>
 [Neural Networks 2](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/15-ANN-2.ipynb)<br>
-[Regression](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/16a-regression.ipynb)<br>
+[More on Regression](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/16a-regression.ipynb)<br>
 [Unsupervised Learning](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/17a-unsupervised-learning.ipynb)<br>
 
 ### Environments and Applications
