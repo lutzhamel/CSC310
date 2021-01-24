@@ -1,10 +1,10 @@
 # Programming for Data Science
 
-Jupiter Notebooks and Presentations for the CSC/DSP 310 "Programming for Data Science" course at the University of Rhode Island.
+Jupiter/Colab Notebooks and Presentations for the CSC/DSP 310 "Programming for Data Science" course at the University of Rhode Island.
 
 ## Slides and Interactive Content
 All notebooks and presentations are in the folder 'notes'.
-If you clone this repo then you can see interactive versions of the notebooks if you open them in your local Jupyter server.
+If you clone this repo then you can see interactive versions of the notebooks if you open them in your local Jupyter server or if you are taking the course at the University of Rhode Island then you can find these on the shared drive 'CSC310'.
 
 ## License
 The content of these notebooks is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-sa/4.0/). Read more at [Creative Commons](https://creativecommons.org).
@@ -41,4 +41,4 @@ The content of these notebooks is released under the [CC-BY-NC-ND license](https
 [Cloud Computing](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/23-cloud-computing.ipynb)<br>
 
 ### The Last Word
-[Report Writing](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/21-report-writing.ipynb)<br>
+[Report Writing](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/24-report-writing.ipynb)<br>
