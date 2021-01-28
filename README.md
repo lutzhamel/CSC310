@@ -6,9 +6,6 @@ Jupiter/Colab Notebooks and Presentations for the CSC/DSP 310 "Programming for D
 All notebooks and presentations are in the folder 'notes'.
 If you clone this repo then you can see interactive versions of the notebooks if you open them in your local Jupyter server or if you are taking the course at the University of Rhode Island then you can find these on the shared drive 'CSC310'.
 
-## License
-The content of these notebooks is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-sa/4.0/). Read more at [Creative Commons](https://creativecommons.org).
-
 ## Online Reading
 
 ### Introduction
@@ -42,3 +39,8 @@ The content of these notebooks is released under the [CC-BY-NC-ND license](https
 
 ### The Last Word
 [Report Writing](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/24-report-writing.ipynb)<br>
+
+## License
+The content of these notebooks is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-sa/4.0/). Read more at [Creative Commons](https://creativecommons.org).
+
+
