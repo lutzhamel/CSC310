@@ -11,7 +11,7 @@ If you clone this repo then you can see interactive versions of the notebooks if
 ### Introduction
 [What is Data Science](https://github.com/lutzhamel/ds/blob/master/notes/01-What-is-Data-Science.pdf)<br>
 [Data Literacy](https://github.com/lutzhamel/ds/blob/master/notes/02-data-literacy.pdf)<br>
-[Jupyter Notebooks](https://github.com/lutzhamel/ds/blob/master/notes/04-notebooks.pdf)<br>
+[Colab Notebooks](https://colab.research.google.com/notebooks/intro.ipynb)<br>
 
 ### The Basics
 [Processing Pipeline](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/05-processing-pipeline.ipynb)<br>
@@ -42,5 +42,3 @@ If you clone this repo then you can see interactive versions of the notebooks if
 
 ## License
 The content of these notebooks is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-sa/4.0/). Read more at [Creative Commons](https://creativecommons.org).
-
-
