@@ -12,6 +12,7 @@ If you clone this repo then you can see interactive versions of the notebooks if
 [What is Data Science](https://github.com/lutzhamel/ds/blob/master/notes/01-What-is-Data-Science.pdf)<br>
 [Data Literacy](https://github.com/lutzhamel/ds/blob/master/notes/02-data-literacy.pdf)<br>
 [Colab Notebooks](https://colab.research.google.com/notebooks/intro.ipynb)<br>
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ### The Basics
 [Processing Pipeline](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/05-processing-pipeline.ipynb)<br>
