@@ -13,7 +13,7 @@ If you clone this repo then you can see interactive versions of the notebooks if
 [Data Literacy](https://github.com/lutzhamel/ds/blob/master/notes/02-data-literacy.pdf)<br>
 [Interlude: Data and Medicine - video](https://youtu.be/bMrDHtGHFR4)<br>
 [Colab Notebooks](https://colab.research.google.com/notebooks/intro.ipynb)<br>
-[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)<br>
 
 ### The Basics
 [Processing Pipeline](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/05-processing-pipeline.ipynb)<br>
@@ -43,6 +43,7 @@ If you clone this repo then you can see interactive versions of the notebooks if
 [Natural Language Processing 2](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/19a-NLP-2.ipynb)<br>
 [Deep Learning](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/22-deep-learning.ipynb)<br>
 [Cloud Computing](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/23-cloud-computing.ipynb)<br>
+[Interlude: Data Science at EA](https://youtu.be/tTSEFaYjV30)<br>
 
 ### The Last Word
 [Report Writing](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/24-report-writing.ipynb)<br>
