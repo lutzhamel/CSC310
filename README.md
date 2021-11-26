@@ -16,8 +16,13 @@ If you clone this repo then you can see interactive versions of the notebooks if
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)<br>
 
 ### The Basics
-[Processing Pipeline](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/05-processing-pipeline.ipynb)<br>
-[Interlude: Machine Learning - How it works - video](https://youtu.be/OeU5m6vRyCk)<br>
+[Processing Pipeline](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/05-processing-pipeline.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/05-processing-pipeline.ipynb)
+<br>
+
+[Interlude: Machine Learning - How it works - video](https://youtu.be/OeU5m6vRyCk)
+<br>
+
 [Machine Learning Basics: Decision Trees](https://github.com/lutzhamel/ds/blob/master/notes/06-machine-learning-basics-1.pdf)<br>
 [Machine Learning Basics: Model Accuracy](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/07-machine-learning-basics-2.ipynb)<br>
 [Interlude: Ethics & AI - video](https://youtu.be/zNxw5gJtHLc)<br>
