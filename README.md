@@ -4,16 +4,21 @@ Jupiter/Colab Notebooks and Presentations for the CSC/DSP 310 "Programming for D
 
 ## Slides and Interactive Content
 All notebooks and presentations are in the folder 'notes'.
-If you clone this repo then you can see interactive versions of the notebooks if you open them in your local Jupyter server or if you are taking the course at the University of Rhode Island then you can find these on the shared drive 'CSC310'.
+If you clone this repo then you can see interactive versions of the notebooks if you open them in your local Jupyter server or you can click on the Colab badges to open interactive versions of the notebooks.
 
 ## Online Reading
 
 ### Introduction
-[What is Data Science](https://github.com/lutzhamel/ds/blob/master/notes/01-What-is-Data-Science.pdf)<br>
-[Data Literacy](https://github.com/lutzhamel/ds/blob/master/notes/02-data-literacy.pdf)<br>
-[Video: Data and Medicine](https://youtu.be/bMrDHtGHFR4)<br>
-[Colab Notebooks](https://colab.research.google.com/notebooks/intro.ipynb)<br>
-[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)<br>
+[What is Data Science](https://github.com/lutzhamel/ds/blob/master/notes/01-What-is-Data-Science.pdf)
+<br>
+[Data Literacy](https://github.com/lutzhamel/ds/blob/master/notes/02-data-literacy.pdf)
+<br>
+[Video: Data and Medicine](https://youtu.be/bMrDHtGHFR4)
+<br>
+[Colab Notebooks](https://colab.research.google.com/notebooks/intro.ipynb)
+<br>
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+<br>
 
 ### The Basics
 [Processing Pipeline](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/05-processing-pipeline.ipynb)
