@@ -23,10 +23,15 @@ If you clone this repo then you can see interactive versions of the notebooks if
 <br>
 [Machine Learning Basics: Decision Trees](https://github.com/lutzhamel/ds/blob/master/notes/06-machine-learning-basics-1.pdf)
 <br>
-[Machine Learning Basics: Model Accuracy](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/07-machine-learning-basics-2.ipynb)<br>
-[Video: Ethics & AI](https://youtu.be/zNxw5gJtHLc)<br>
-[Data Manipulation with Pandas](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/08-data-manipulation-pandas.ipynb)<br>
-[Visualization](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/09-visualization.ipynb)<br>
+[Machine Learning Basics: Model Accuracy](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/07-machine-learning-basics-2.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/07-machine-learning-basics-2.ipynb)
+<br>
+[Video: Ethics & AI](https://youtu.be/zNxw5gJtHLc)
+<br>
+[Data Manipulation with Pandas](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/08-data-manipulation-pandas.ipynb)
+<br>
+[Visualization](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/09-visualization.ipynb)
+<br>
 
 ### Machine Learning
 [Models of Data: Classification and Regression](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/10-models.ipynb)<br>
