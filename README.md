@@ -41,7 +41,7 @@ If you clone this repo then you can see interactive versions of the notebooks if
 ### Machine Learning
 [Models of Data: Classification and Regression](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/10-models.ipynb)<br>
 [Video: Training Data & Bias](https://youtu.be/x2mRoFNm22g)<br>
-[Models Evaluating Models](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/11-models-2.ipynb)<br>
+[Evaluating Models](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/11-models-2.ipynb)<br>
 [Confidence Intervals](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/12-models-3.ipynb)<br>
 [K Nearest Neighbor](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/13-KNN.ipynb)<br>
 [Video: Neural Networks](https://youtu.be/JrXazCEACVo)<br>
