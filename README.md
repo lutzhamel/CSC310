@@ -19,7 +19,8 @@ Intro to Colab Notebooks [![Colab](https://colab.research.google.com/assets/cola
 <br>
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 <br>
-Reading and Publishing Data
+[Reading and Publishing Data](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/03-accessing-data.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/03-accessing-data.ipynb)
 <br>
 
 ### The Basics
