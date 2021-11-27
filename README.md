@@ -15,7 +15,7 @@ If you clone this repo then you can see interactive versions of the notebooks if
 <br>
 [Video: Data and Medicine](https://youtu.be/bMrDHtGHFR4)
 <br>
-[Colab Notebooks](https://colab.research.google.com/notebooks/intro.ipynb)
+Colab Notebooks [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/notebooks/intro.ipynb)
 <br>
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 <br>
