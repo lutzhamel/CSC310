@@ -19,6 +19,8 @@ If you clone this repo then you can see interactive versions of the notebooks if
 <br>
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 <br>
+Reading and Publishing Data
+<br>
 
 ### The Basics
 [Processing Pipeline](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/05-processing-pipeline.ipynb)
