@@ -37,7 +37,7 @@ Intro to Colab Notebooks [![Colab](https://colab.research.google.com/assets/cola
 [Video: Ethics & AI](https://youtu.be/zNxw5gJtHLc)
 <br>
 [Data Manipulation with Pandas](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/08-data-manipulation-pandas.ipynb)
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/08-data-manipultation-pandas.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/08-data-manipulation-pandas.ipynb)
 <br>
 [Visualization](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/09-visualization.ipynb)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/09-visualization.ipynb)
