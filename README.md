@@ -61,7 +61,6 @@ Intro to Colab Notebooks [![Colab](https://colab.research.google.com/assets/cola
 [Natural Language Processing 1](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/18a-NLP.ipynb)<br>
 [Natural Language Processing 2](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/19a-NLP-2.ipynb)<br>
 [Deep Learning](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/22-deep-learning.ipynb)<br>
-[Cloud Computing](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/23-cloud-computing.ipynb)<br>
 [Video: Data Science at Electronic Arts (EA)](https://youtu.be/tTSEFaYjV30)<br>
 
 ### The Last Word
