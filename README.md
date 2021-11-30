@@ -1,10 +1,10 @@
 # Programming for Data Science
 
-Jupiter/Colab Notebooks and Presentations for the CSC/DSP 310 "Programming for Data Science" course at the University of Rhode Island.
+Jupiter/Colab Notebooks and PDF Presentations for the CSC 310 "Programming for Data Science" course at the University of Rhode Island.
 
 ## Slides and Interactive Content
 All notebooks and presentations are in the folder 'notes'.
-If you clone this repo then you can see interactive versions of the notebooks if you open them in your local Jupyter server or you can click on the Colab badges to open interactive versions of the notebooks.
+If you clone this repo then you can see interactive versions of the notebooks if you open them in your local Jupyter server or you can click on the Colab badges below to open interactive versions of the notebooks right here in your browser.
 
 ## Online Reading
 
@@ -48,26 +48,41 @@ Intro to Colab Notebooks [![Colab](https://colab.research.google.com/assets/cola
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/10-models.ipynb)
 <br>
 [Video: Training Data & Bias](https://youtu.be/x2mRoFNm22g)<br>
-[Evaluating Models](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/11-models-2.ipynb)<br>
-[Confidence Intervals](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/12-models-3.ipynb)<br>
-[K Nearest Neighbor](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/13-KNN.ipynb)<br>
-[Video: Neural Networks](https://youtu.be/JrXazCEACVo)<br>
-[Neural Networks 1](https://github.com/lutzhamel/ds/blob/master/notes/14-ANN.pdf)<br>
-[Neural Networks 2](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/15-ANN-2.ipynb)<br>
-[More on Regression](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/16a-regression.ipynb)<br>
+[Evaluating Models](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/11-models-2.ipynb)
+<br>
+[Confidence Intervals](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/12-models-3.ipynb)
+<br>
+[Another Take on Classification: K Nearest Neighbor](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/13-KNN.ipynb)
+<br>
+[Video: Neural Networks](https://youtu.be/JrXazCEACVo)
+<br>
+[Neural Networks 1](https://github.com/lutzhamel/ds/blob/master/notes/14-ANN.pdf)
+<br>
+[Neural Networks 2](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/15-ANN-2.ipynb)
+<br>
+[More on Regression](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/16a-regression.ipynb)
+<br>
 [Video: Digital Compression](https://youtu.be/By30SCp-Tsw)<br>
-[Unsupervised Learning](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/17a-unsupervised-learning.ipynb)<br>
+[Unsupervised Learning: Clustering](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/17a-unsupervised-learning.ipynb)
+<br>
 
 ### Environments and Applications
-[Databases](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/20-databases.ipynb)<br>
-[Natural Language Processing 1](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/18a-NLP.ipynb)<br>
-[Natural Language Processing 2](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/19a-NLP-2.ipynb)<br>
-[Deep Learning](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/22-deep-learning.ipynb)<br>
-[Cloud Computing](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/23-cloud-computing.ipynb)<br>
-[Video: Data Science at Electronic Arts (EA)](https://youtu.be/tTSEFaYjV30)<br>
+[Databases](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/20-databases.ipynb)
+<br>
+[Natural Language Processing 1](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/18a-NLP.ipynb)
+<br>
+[Natural Language Processing 2](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/19a-NLP-2.ipynb)
+<br>
+[Deep Learning](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/22-deep-learning.ipynb)
+<br>
+[Cloud Computing](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/23-cloud-computing.ipynb)
+<br>
+[Video: Data Science at Electronic Arts (EA)](https://youtu.be/tTSEFaYjV30)
+<br>
 
 ### The Last Word
-[Report Writing](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/24-report-writing.ipynb)<br>
+[Report Writing](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/24-report-writing.ipynb)
+<br>
 
 ## License
 The content of these notebooks is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-sa/4.0/). Read more at [Creative Commons](https://creativecommons.org).
