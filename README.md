@@ -9,7 +9,7 @@ If you clone this repo then you can see interactive versions of the notebooks if
 ## Online Reading
 
 ### Introduction
-[What is Data Science](https://github.com/lutzhamel/ds/blob/master/notes/01-What-is-Data-Science.pdf)
+[What is Data Science](https://github.com/lutzhamel/ds-notes/blob/master/notes/01-What-is-Data-Science.pdf)
 <br>
 [Data Literacy](https://github.com/lutzhamel/ds/blob/master/notes/02-data-literacy.pdf)
 <br>
@@ -39,12 +39,15 @@ Intro to Colab Notebooks [![Colab](https://colab.research.google.com/assets/cola
 [Data Manipulation with Pandas](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/08-data-manipulation-pandas.ipynb)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/08-data-manipulation-pandas.ipynb)
 <br>
-[Visualization](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/09-visualization.ipynb)
+[Visualization](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/09-visualization.ipynb)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/09-visualization.ipynb)
 <br>
 
 ### Machine Learning
-[Models of Data: Classification and Regression](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/10-models.ipynb)
+[Models of Data: Classification and Regression]
+
+
+(https://nbviewer.jupyter.org/raw.githubusercontent/lutzhamel/ds/blob/master/notes/10-models.ipynb)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/10-models.ipynb)
 <br>
 [Video: Training Data & Bias](https://youtu.be/x2mRoFNm22g)
