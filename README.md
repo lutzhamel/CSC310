@@ -47,8 +47,10 @@ Intro to Colab Notebooks [![Colab](https://colab.research.google.com/assets/cola
 [Models of Data: Classification and Regression](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/10-models.ipynb)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/10-models.ipynb)
 <br>
-[Video: Training Data & Bias](https://youtu.be/x2mRoFNm22g)<br>
+[Video: Training Data & Bias](https://youtu.be/x2mRoFNm22g)
+<br>
 [Evaluating Models](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/11-models-2.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/11-models-2.ipynb)
 <br>
 [Confidence Intervals](https://nbviewer.jupyter.org/github/lutzhamel/ds/blob/master/notes/12-models-3.ipynb)
 <br>
