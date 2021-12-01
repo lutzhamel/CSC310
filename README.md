@@ -88,6 +88,17 @@ Intro to Colab Notebooks [![Colab](https://colab.research.google.com/assets/cola
 [Report Writing](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/24-report-writing.ipynb)
 <br>
 
+### Advanced Topics
+
+Understanding the Underlying VM
+<br>
+Issuing Commands to the VM
+<br>
+Mounting your Google Drive
+<br>
+Asking for more Computing Resources
+<br>
+
 ## License
 The content of these notebooks is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-sa/4.0/). Read more at [Creative Commons](https://creativecommons.org).
 
