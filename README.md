@@ -13,6 +13,8 @@ If you clone this repo then you can see interactive versions of the notebooks if
 <br>
 [Data Literacy](https://github.com/lutzhamel/ds-notes/blob/master/notes/02-data-literacy.pdf)
 <br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bMrDHtGHFR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 [Video: Data and Medicine](https://youtu.be/bMrDHtGHFR4)
 <br>
 Intro to Colab Notebooks [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/notebooks/intro.ipynb)
