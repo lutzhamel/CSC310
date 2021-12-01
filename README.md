@@ -55,8 +55,7 @@ Intro to Colab Notebooks [![Colab](https://colab.research.google.com/assets/cola
 [Confidence Intervals](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/12-models-3.ipynb)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/12-models-3.ipynb)
 <br>
-[Another Take on Classification: K Nearest Neighbor]
-(https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/13-KNN.ipynb)
+[Another Take on Classification: K Nearest Neighbor](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/13-KNN.ipynb)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/13-KNN.ipynb)
 <br>
 [Video: Neural Networks](https://youtu.be/JrXazCEACVo)
