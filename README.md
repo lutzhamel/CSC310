@@ -99,6 +99,12 @@ Mounting your Google Drive
 Asking for more Computing Resources
 <br>
 
+### Templates
+
+[template-ca-cervix.ipynb](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/template-ca-cervix.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/template-ca-cervix.ipynb)
+<br>
+
 ## License
 The content of these notebooks is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-sa/4.0/). Read more at [Creative Commons](https://creativecommons.org).
 
