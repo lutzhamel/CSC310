@@ -101,8 +101,8 @@ Asking for more Computing Resources
 
 ### Templates
 
-[template-ca-cervix.ipynb](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/template-ca-cervix.ipynb)
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/template-ca-cervix.ipynb)
+[template-ca-cervix.ipynb](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/templates/template-ca-cervix.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/templates/template-ca-cervix.ipynb)
 <br>
 
 ## License
