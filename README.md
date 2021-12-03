@@ -63,10 +63,13 @@ Intro to Colab Notebooks [![Colab](https://colab.research.google.com/assets/cola
 [Neural Networks 1](https://github.com/lutzhamel/ds-notes/blob/master/notes/14-ANN.pdf)
 <br>
 [Neural Networks 2](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/15-ANN-2.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/15-ANN-2.ipynb)
 <br>
 [More on Regression](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/16a-regression.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/16a-regression.ipynb)
 <br>
-[Video: Digital Compression](https://youtu.be/By30SCp-Tsw)<br>
+[Video: Digital Compression](https://youtu.be/By30SCp-Tsw)
+<br>
 [Unsupervised Learning: Clustering](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/17a-unsupervised-learning.ipynb)
 <br>
 
