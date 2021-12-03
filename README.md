@@ -99,6 +99,8 @@ Issuing Commands to the VM
 <br>
 Mounting your Google Drive
 <br>
+Storing Notebooks on GitHub
+<br>
 Asking for more Computing Resources
 <br>
 
