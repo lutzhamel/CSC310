@@ -108,4 +108,4 @@ Asking for more Computing Resources
 The content of these notebooks is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-sa/4.0/). Read more at [Creative Commons](https://creativecommons.org).
 
 ## Videos
-The videos on this page are courtesy of [code.org](https://code.org).  Please refer to them  for specific use related restrictions.
+The videos on this page are courtesy of [code.org](https://code.org/educate/resources/videos).  Please refer to them  for specific use related restrictions.
