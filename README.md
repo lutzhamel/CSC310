@@ -14,10 +14,10 @@ What is Data Science
 [![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://github.com/lutzhamel/ds-notes/blob/master/notes/01-What-is-Data-Science.pdf)
 <br>
 Data Literacy
-[PDF](https://github.com/lutzhamel/ds-notes/blob/master/notes/02-data-literacy.pdf)
+[![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://github.com/lutzhamel/ds-notes/blob/master/notes/02-data-literacy.pdf)
 <br>
 Data and Medicine
-[Video]](https://youtu.be/bMrDHtGHFR4)
+[Video](https://youtu.be/bMrDHtGHFR4)
 <br>
 Intro to Colab Notebooks
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/notebooks/intro.ipynb)
@@ -38,7 +38,7 @@ Machine Learning - How it works
 [Video](https://youtu.be/OeU5m6vRyCk)
 <br>
 Machine Learning Basics: Decision Trees
-[PDF](https://github.com/lutzhamel/ds-notes/blob/master/notes/06-machine-learning-basics-1.pdf)
+[![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://github.com/lutzhamel/ds-notes/blob/master/notes/06-machine-learning-basics-1.pdf)
 <br>
 Machine Learning Basics: Model Accuracy
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/07-machine-learning-basics-2.ipynb)
@@ -74,7 +74,7 @@ Neural Networks
 [Video](https://youtu.be/JrXazCEACVo)
 <br>
 Neural Networks 1
-[PDF](https://github.com/lutzhamel/ds-notes/blob/master/notes/14-ANN.pdf)
+[![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://github.com/lutzhamel/ds-notes/blob/master/notes/14-ANN.pdf)
 <br>
 Neural Networks 2
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/15-ANN-2.ipynb)
