@@ -11,7 +11,7 @@ If you clone this repo then you can see interactive versions of the notebooks if
 ### Introduction
 
 What is Data Science
-[PDF](https://github.com/lutzhamel/ds-notes/blob/master/notes/01-What-is-Data-Science.pdf)
+[![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://github.com/lutzhamel/ds-notes/blob/master/notes/01-What-is-Data-Science.pdf)
 <br>
 Data Literacy
 [PDF](https://github.com/lutzhamel/ds-notes/blob/master/notes/02-data-literacy.pdf)
