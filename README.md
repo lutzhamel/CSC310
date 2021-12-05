@@ -23,7 +23,7 @@ Intro to Colab Notebooks
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/notebooks/intro.ipynb)
 <br>
 Markdown Cheatsheet
-[GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[![GitHub](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/github-icon.png)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 <br>
 Accessing Data
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/03-accessing-data.ipynb)
