@@ -74,6 +74,7 @@ Intro to Colab Notebooks [![Colab](https://colab.research.google.com/assets/cola
 
 ### Environments and Applications
 [Databases](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/20-databases.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/20-databases.ipynb)
 <br>
 [Natural Language Processing 1](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/18a-NLP.ipynb)
 <br>
