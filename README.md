@@ -68,9 +68,8 @@ Intro to Colab Notebooks [![Colab](https://colab.research.google.com/assets/cola
 [More on Regression](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/16a-regression.ipynb)
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/16a-regression.ipynb)
 <br>
-[Video: Digital Compression](https://youtu.be/By30SCp-Tsw)
-<br>
 [Unsupervised Learning: Clustering](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/17a-unsupervised-learning.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/17a-unsupervised-learning.ipynb)
 <br>
 
 ### Environments and Applications
@@ -81,6 +80,10 @@ Intro to Colab Notebooks [![Colab](https://colab.research.google.com/assets/cola
 [Natural Language Processing 2](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/19a-NLP-2.ipynb)
 <br>
 [Deep Learning](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/22-deep-learning.ipynb)
+<br>
+[Video: Digital Compression](https://youtu.be/By30SCp-Tsw)
+<br>
+[Image Compression](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/22a-image-compression.ipynb)
 <br>
 [Cloud Computing](https://nbviewer.jupyter.org/github/lutzhamel/ds-notes/blob/master/notes/23-cloud-computing.ipynb)
 <br>
