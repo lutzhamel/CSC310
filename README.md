@@ -17,7 +17,7 @@ Data Literacy
 [![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://github.com/lutzhamel/ds-notes/blob/master/notes/02-data-literacy.pdf)
 <br>
 Data and Medicine
-[Video](https://youtu.be/bMrDHtGHFR4)
+[![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/bMrDHtGHFR4)
 <br>
 Intro to Colab Notebooks
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/notebooks/intro.ipynb)
@@ -35,7 +35,7 @@ The Processing Pipeline
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/05-processing-pipeline.ipynb)
 <br>
 Machine Learning - How it works
-[Video](https://youtu.be/OeU5m6vRyCk)
+[![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/OeU5m6vRyCk)
 <br>
 Machine Learning Basics: Decision Trees
 [![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://github.com/lutzhamel/ds-notes/blob/master/notes/06-machine-learning-basics-1.pdf)
@@ -44,7 +44,7 @@ Machine Learning Basics: Model Accuracy
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/07-machine-learning-basics-2.ipynb)
 <br>
 Ethics & AI
-[Video](https://youtu.be/zNxw5gJtHLc)
+[![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/zNxw5gJtHLc)
 <br>
 Data Manipulation with Pandas
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/08-data-manipulation-pandas.ipynb)
@@ -59,7 +59,7 @@ Models of Data: Classification and Regression
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/10-models.ipynb)
 <br>
 Training Data & Bias
-[Video](https://youtu.be/x2mRoFNm22g)
+[![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/x2mRoFNm22g)
 <br>
 Evaluating Models
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/11-models-2.ipynb)
@@ -71,7 +71,7 @@ Another Take on Classification: K Nearest Neighbor
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/13-KNN.ipynb)
 <br>
 Neural Networks
-[Video](https://youtu.be/JrXazCEACVo)
+[![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/JrXazCEACVo)
 <br>
 Neural Networks 1
 [![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://github.com/lutzhamel/ds-notes/blob/master/notes/14-ANN.pdf)
@@ -100,7 +100,7 @@ Natural Language Processing: Deep Learning
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/22-deep-learning.ipynb)
 <br>
 Digital Compression
-[Video](https://youtu.be/By30SCp-Tsw)
+[![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/By30SCp-Tsw)
 <br>
 Image Compression
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/22a-image-compression.ipynb)
@@ -109,7 +109,7 @@ Cloud Computing
 [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/23-cloud-computing.ipynb)
 <br>
 Data Science at Electronic Arts (EA)
-[Video](https://youtu.be/tTSEFaYjV30)
+[![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/tTSEFaYjV30)
 <br>
 
 ### The Last Word
