@@ -122,10 +122,9 @@ Model Deployment
 ### Advanced Topics
 
 Understanding the Underlying VM
-<br>
-Issuing Commands to the VM
-<br>
-Mounting your Google Drive
+* The File System
+* Mounting your Google Drive
+* Issuing Commands to the VM
 <br>
 Storing Notebooks on GitHub
 <br>
