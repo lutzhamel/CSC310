@@ -9,7 +9,7 @@ If you clone this repo then you can see interactive versions of the notebooks on
 
 ## Online Reading
 
-Please follow the link to the [GitHub Pages](https://lutzhamel.github.io/ds-notes/) where can click on the Colab badges to open interactive versions of the notebooks right here in your browser.
+Please follow the link to the [GitHub Pages](https://lutzhamel.github.io/ds-notes/) where you can click on the Colab icons to open interactive versions of the notebooks right here in your browser.
 
 ## License
 
