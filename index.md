@@ -1,3 +1,7 @@
+<center>
+<img src="https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/data-science.jpg">
+</center>
+
 ## Programming for Data Science
 
 ### Introduction
