@@ -1,20 +1,12 @@
-# Programming for Data Science
-
-Jupiter/Colab Notebooks and PDF Presentations for the CSC 310 "Programming for Data Science" course at the University of Rhode Island.
-
-## Slides and Interactive Content
-All notebooks and presentations are in the folder 'notes'.
-If you clone this repo then you can see interactive versions of the notebooks if you open them in your local Jupyter server or you can click on the Colab badges below to open interactive versions of the notebooks right here in your browser.
-
-## Online Reading
+## Programming for Data Science
 
 ### Introduction
 
 What is Data Science
-[![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://github.com/lutzhamel/ds-notes/notes/01-What-is-Data-Science.pdf)
+[![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://lutzhamel.github.io/ds-notes/notes/01-What-is-Data-Science.pdf)
 <br>
 Data Literacy
-[![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://github.com/lutzhamel/ds-notes/blob/master/notes/02-data-literacy.pdf)
+[![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://lutzhamel.github.io/ds-notes/notes/02-data-literacy.pdf)
 <br>
 Data and Medicine
 [![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/bMrDHtGHFR4)
@@ -38,7 +30,7 @@ Machine Learning - How it works
 [![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/OeU5m6vRyCk)
 <br>
 Machine Learning Basics: Decision Trees
-[![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://github.com/lutzhamel/ds-notes/blob/master/notes/06-machine-learning-basics-1.pdf)
+[![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://lutzhamel.github.io/ds-notes/notes/06-machine-learning-basics-1.pdf)
 <br>
 Machine Learning Basics: Model Accuracy
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/07-machine-learning-basics-2.ipynb)
@@ -74,7 +66,7 @@ Neural Networks
 [![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/JrXazCEACVo)
 <br>
 Neural Networks 1
-[![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://github.com/lutzhamel/ds-notes/blob/master/notes/14-ANN.pdf)
+[![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://lutzhamel.github.io/ds-notes//notes/14-ANN.pdf)
 <br>
 Neural Networks 2
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/ds-notes/blob/master/notes/15-ANN-2.ipynb)
