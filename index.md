@@ -122,13 +122,14 @@ Understanding the Underlying VM
 * Mounting your Google Drive
 * Issuing Commands to the VM
 <br>
+
 Storing Notebooks on GitHub
 <br>
 Asking for more Computing Resources
 <br>
 
-## License
-The content of these notebooks is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-sa/4.0/). Read more at [Creative Commons](https://creativecommons.org).
+### License
+The content of this website is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-sa/4.0/). Read more at [Creative Commons](https://creativecommons.org).
 
-## Videos
+### Videos
 The videos on this page are courtesy of [code.org](https://code.org/educate/resources/videos).  Please refer to them  for specific use related restrictions.
