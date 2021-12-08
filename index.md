@@ -132,4 +132,5 @@ The content of this website is released under the [CC-BY-NC-ND license](https://
 ### Videos
 The videos on this page are courtesy of [code.org](https://code.org/educate/resources/videos).  Please refer to them  for specific use related restrictions.
 
-Back to the [repository](https://github.com/lutzhamel/CSC310)
+<hr>
+Back to the [repository](https://github.com/lutzhamel/CSC310).
