@@ -119,8 +119,8 @@ Model Deployment
 ### Advanced Topics
 
 Understanding the Underlying VM
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/26-system.ipynb)
 <br>
-
 Storing Notebooks on GitHub
 <br>
 Asking for more Computing Resources
