@@ -1,7 +1,7 @@
 ## Programming for Data Science
 
 <center>
-<img src="https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/data-science.jpg">
+<img src="https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/data-science.jpg" width="1000" height="500">
 </center>
 
 
