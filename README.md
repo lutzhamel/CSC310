@@ -2,7 +2,7 @@
 
 Colab Notebooks, PDF Presentations, and videos for the CSC 310 "Programming for Data Science" course at the University of Rhode Island.
 
-For readable and interactive content please go to the [GitHub Pages](https://lutzhamel.github.io/CSC310/). where you can click on the Cola
+For readable and interactive content please go to the [CSC310 GitHub Pages](https://lutzhamel.github.io/CSC310/). 
 
 ## License
 
