@@ -1,0 +1,11 @@
+# bash script to init environment on replit.com
+pip3 install asteroid-lang
+clear
+echo "Welcome to Asteroid!"
+echo " "
+asteroid
+echo " "
+echo "Example programs are available in folder:"
+echo " "
+echo "   asteroid/programs"
+echo " "
