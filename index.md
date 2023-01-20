@@ -4,6 +4,9 @@
 <img src="https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/data-science.jpg" width="500" height="250">
 </center>
 
+### Documents of Interest
+
+[Syllabus](docs/syllabus.pdf)<br>
 
 ### Introduction
 
