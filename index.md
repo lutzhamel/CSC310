@@ -6,7 +6,19 @@
 
 ### Documents of Interest
 
-[Syllabus](docs/syllabus.pdf)<br>
+Syllabus
+[![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](docs/syllabus.pdf)
+<br>
+Book
+[![GitHub](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/github-icon.png)](https://jakevdp.github.io/PythonDataScienceHandbook)
+<br>
+Intro to Colab Notebooks
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/notebooks/intro.ipynb)
+<br>
+Markdown Cheatsheet
+[![GitHub](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/github-icon.png)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+<br>
+
 
 ### Introduction
 
@@ -18,12 +30,6 @@ Data Literacy
 <br>
 Data and Medicine
 [![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/bMrDHtGHFR4)
-<br>
-Intro to Colab Notebooks
-[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/notebooks/intro.ipynb)
-<br>
-Markdown Cheatsheet
-[![GitHub](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/github-icon.png)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 <br>
 Accessing Data
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/03-accessing-data.ipynb)
