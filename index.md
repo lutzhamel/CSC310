@@ -101,9 +101,13 @@ Natural Language Processing 1
 <br>
 Natural Language Processing 2
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/19a-NLP-2.ipynb)
+<!--
+-- clustering natural language with kmeans doesn't really work
+-- this is more confusing than helpful
 <br>
 Natural Language Processing 3
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/19a-NLP-3.ipynb)
+-->
 <br>
 Natural Language Processing: Deep Learning
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/22-deep-learning.ipynb)
