@@ -46,7 +46,7 @@ Machine Learning - How it works
 Machine Learning Basics: Decision Trees
 [![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://lutzhamel.github.io/CSC310/notes/06-machine-learning-basics-1.pdf)
 <br>
-Machine Learning Basics: Model Accuracy
+Machine Learning Basics: Decision Trees (Cont'd)
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/07-machine-learning-basics-2.ipynb)
 <br>
 Ethics & AI
