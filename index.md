@@ -59,18 +59,18 @@ Visualization
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/09-visualization.ipynb)
 <br>
 
-### Machine Learning
+### Models of Data
 
-Models of Data: Classification and Regression
+Classification and Regression
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/10-models.ipynb)
 <br>
 Training Data & Bias
 [![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/x2mRoFNm22g)
 <br>
-Evaluating Models
+Evaluating Models: Learning Curves, Train-Test, Cross-Validation, Confusion Matrix
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/11-models-2.ipynb)
 <br>
-Confidence Intervals
+Evaluating Models: Confidence Intervals
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/12-models-3.ipynb)
 <br>
 Another Take on Classification: K Nearest Neighbor
@@ -79,10 +79,10 @@ Another Take on Classification: K Nearest Neighbor
 Neural Networks
 [![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/JrXazCEACVo)
 <br>
-Neural Networks 1
+Neural Networks
 [![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://lutzhamel.github.io/CSC310//notes/14-ANN.pdf)
 <br>
-Neural Networks 2
+Neural Networks (Cont'd)
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/15-ANN-2.ipynb)
 <br>
 More on Regression
@@ -96,10 +96,10 @@ Unsupervised Learning: Clustering
 Databases
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/20-databases.ipynb)
 <br>
-Natural Language Processing 1
+Natural Language Processing
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/18a-NLP.ipynb)
 <br>
-Natural Language Processing 2
+Natural Language Processing (Cont'd)
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/19a-NLP-2.ipynb)
 <!--
 -- clustering natural language with kmeans doesn't really work
