@@ -25,14 +25,20 @@ Markdown Cheatsheet
 What is Data Science
 [![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://lutzhamel.github.io/CSC310/notes/01-What-is-Data-Science.pdf)
 <br>
-Data Literacy
-[![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://lutzhamel.github.io/CSC310/notes/02-data-literacy.pdf)
+Ethical Concerns
+[![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://lutzhamel.github.io/CSC310/notes/02-ethics.pdf)
+<br>
+Ethics & AI
+[![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/zNxw5gJtHLc)
+<br>
+The Shape of Data
+[![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://lutzhamel.github.io/CSC310/notes/03-shape-of-data.pdf)
 <br>
 Data and Medicine
 [![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/bMrDHtGHFR4)
 <br>
 Accessing Data
-[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/03-accessing-data.ipynb)
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/04-accessing-data.ipynb)
 <br>
 
 ### The Basics
@@ -48,9 +54,6 @@ Machine Learning Basics: Decision Trees
 <br>
 Machine Learning Basics: Decision Trees (Cont'd), Accuracy 
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/07-machine-learning-basics-2.ipynb)
-<br>
-Ethics & AI
-[![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/zNxw5gJtHLc)
 <br>
 Data Manipulation with Pandas
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/08-data-manipulation-pandas.ipynb)
