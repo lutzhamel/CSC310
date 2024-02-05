@@ -76,7 +76,7 @@ Evaluating Models: Learning Curves, Train-Test, Cross-Validation, Confusion Matr
 Evaluating Models: Confidence Intervals
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/12-models-3.ipynb)
 <br>
-Another Take on Classification: K Nearest Neighbor
+Another Take on Classification: Instance Based Learning
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/13-KNN.ipynb)
 <br>
 Neural Networks
