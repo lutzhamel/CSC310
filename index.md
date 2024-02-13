@@ -4,6 +4,20 @@
 <img src="https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/data-science.jpg" width="500" height="250">
 </center>
 
+### Icons used on this Page
+
+The following icons represent links to course resources:
+<br>
+
+![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png) - link to a PDF
+<br>
+![GitHub](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/github-icon.png) - link to a GitHub resource
+<br>
+![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png) - link to a Google Colab Notebook
+<br>
+![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png) - link to a YouTube Video
+<br>
+
 ### Documents of Interest
 
 Syllabus
