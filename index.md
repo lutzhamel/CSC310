@@ -39,6 +39,9 @@ Markdown Cheatsheet
 What is Data Science
 [![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://lutzhamel.github.io/CSC310/notes/01-What-is-Data-Science.pdf)
 <br>
+Data Science at Electronic Arts (EA)
+[![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/tTSEFaYjV30)
+<br>
 Ethical Concerns
 [![PDF](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/pdf-badge.png)](https://lutzhamel.github.io/CSC310/notes/02-ethics.pdf)
 <br>
@@ -144,9 +147,6 @@ Cloud Computing
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/23-cloud-computing.ipynb)
 <br>
 -->
-Data Science at Electronic Arts (EA)
-[![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/tTSEFaYjV30)
-<br>
 
 ### The Last Word
 Report Writing
