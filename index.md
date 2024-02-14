@@ -129,11 +129,14 @@ Natural Language Processing 3
 Natural Language Processing: Deep Learning
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/22-deep-learning.ipynb)
 <br>
-Digital Compression
-[![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/By30SCp-Tsw)
+How Chatbots and Large Language Models Work
+[![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/X-AWdfSFCHQ)
 <br>
 Image Compression
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/22a-image-compression.ipynb)
+<br>
+Digital Compression
+[![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/By30SCp-Tsw)
 <br>
 <!--
 -- AWS classroom no longer exists...have to find something new
