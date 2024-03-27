@@ -116,6 +116,9 @@ Unsupervised Learning: Clustering
 Databases
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/20-databases.ipynb)
 <br>
+Example: Doing Data Science on Databases
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/20a-databases.ipynb)
+<br>
 Natural Language Processing
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/18a-NLP.ipynb)
 <br>
