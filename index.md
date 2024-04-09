@@ -151,22 +151,21 @@ Cloud Computing
 <br>
 -->
 
-### The Last Word
-Report Writing
-[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/24-report-writing.ipynb)
-<br>
-Model Deployment
-<br>
-
 ### Advanced Topics
+
+Uncertainty
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/23-uncertainty.ipynb)
+<br>
 
 Understanding the Underlying VM
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/26-system.ipynb)
 <br>
-Colab Notebooks on GitHub
+
+### The Last Word
+Report Writing
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/24-report-writing.ipynb)
 <br>
-Asking for more Computing Resources
-<br>
+
 
 ### License
 The content of this website is released under the [CC-BY-NC-ND license](https://creativecommons.org/licenses/by-sa/4.0/). Read more at [Creative Commons](https://creativecommons.org).
