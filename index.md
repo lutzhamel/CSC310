@@ -144,12 +144,10 @@ Image Compression
 Digital Compression
 [![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/By30SCp-Tsw)
 <br>
-<!--
--- AWS classroom no longer exists...have to find something new
-Cloud Computing
-[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/23-cloud-computing.ipynb)
+Handwriting Recognition
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/22b-digits.ipynb)
 <br>
--->
+
 
 ### Advanced Topics
 
