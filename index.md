@@ -154,7 +154,9 @@ Handwriting Recognition
 Uncertainty
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/23-uncertainty.ipynb)
 <br>
-
+Ensemble Techniques
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/23a-ensemble.ipynb)
+<br>
 Understanding the Underlying VM
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/26-system.ipynb)
 <br>
