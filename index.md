@@ -157,6 +157,9 @@ Uncertainty
 Ensemble Techniques
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/23a-ensemble.ipynb)
 <br>
+Large Margin Classifiers
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/23b-large-margin.ipynb)
+<br>
 Understanding the Underlying VM
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/26-system.ipynb)
 <br>
