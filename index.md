@@ -160,10 +160,17 @@ Ensemble Techniques
 Large Margin Classifiers
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/23b-large-margin.ipynb)
 <br>
+Time Series Analysis
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/23c-time-series.ipynb)
+<br>
+Time Series Forecasting
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/23d-time-series-forecasting.ipynb)
+<br>
+<!--
 Understanding the Underlying VM
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/26-system.ipynb)
 <br>
-
+-->
 ### The Last Word
 Report Writing
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/24-report-writing.ipynb)
