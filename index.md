@@ -60,9 +60,6 @@ Data and Medicine
 The Processing Pipeline
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/04-processing-pipeline.ipynb)
 <br>
-Accessing Data
-[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/05-accessing-data.ipynb)
-<br>
 Machine Learning - How it works
 [![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/OeU5m6vRyCk)
 <br>
@@ -124,13 +121,6 @@ Natural Language Processing
 <br>
 Natural Language Processing (Cont'd)
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/19a-NLP-2.ipynb)
-<!--
--- clustering natural language with kmeans doesn't really work
--- this is more confusing than helpful
-<br>
-Natural Language Processing 3
-[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/19a-NLP-3.ipynb)
--->
 <br>
 Natural Language Processing: Deep Learning
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/22-deep-learning.ipynb)
