@@ -103,10 +103,10 @@ Neural Networks (Cont'd)
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/15-ANN-2.ipynb)
 <br>
 More on Regression
-[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/16a-regression.ipynb)
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/16-regression.ipynb)
 <br>
 Unsupervised Learning: Clustering
-[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/17a-unsupervised-learning.ipynb)
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/17-unsupervised-learning.ipynb)
 <br>
 
 ### Environments and Applications
@@ -114,13 +114,13 @@ Databases
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/20-databases.ipynb)
 <br>
 Example: Doing Data Science on Databases
-[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/20a-databases.ipynb)
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/21-databases.ipynb)
 <br>
 Natural Language Processing
-[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/18a-NLP.ipynb)
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/18-NLP.ipynb)
 <br>
 Natural Language Processing (Cont'd)
-[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/19a-NLP-2.ipynb)
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/19-NLP-2.ipynb)
 <br>
 Natural Language Processing: Deep Learning
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/22-deep-learning.ipynb)
