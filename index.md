@@ -26,9 +26,6 @@ Syllabus
 Book
 [![GitHub](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/github-icon.png)](https://jakevdp.github.io/PythonDataScienceHandbook)
 <br>
-Intro to Colab Notebooks
-[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/notebooks/intro.ipynb)
-<br>
 Markdown Cheatsheet
 [![GitHub](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/github-icon.png)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 <br>
