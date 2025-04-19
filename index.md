@@ -138,9 +138,6 @@ Handwriting Recognition
 
 ### Advanced Topics
 
-Uncertainty Revisited: The Bootstrap
-[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/23-uncertainty.ipynb)
-<br>
 Ensemble Techniques
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/23a-ensemble.ipynb)
 <br>
@@ -152,6 +149,9 @@ Time Series Analysis
 <br>
 Time Series Forecasting
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/23d-time-series-forecasting.ipynb)
+<br>
+Uncertainty Revisited: The Bootstrap
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/23-uncertainty.ipynb)
 <br>
 <!--
 Understanding the Underlying VM
