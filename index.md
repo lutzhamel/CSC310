@@ -51,6 +51,8 @@ The Shape of Data
 Data and Medicine
 [![Video](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/youtube-icon.png)](https://youtu.be/bMrDHtGHFR4)
 <br>
+Colab Basics and Installation
+<br>
 
 ### The Basics
 
