@@ -108,6 +108,12 @@ Unsupervised Learning: Clustering
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/17-unsupervised-learning.ipynb)
 <br>
 
+### Midsemeter Review
+Unsupervised Learning: Clustering
+[![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/midsemester-review.ipynb)
+<br>
+
+
 ### Environments and Applications
 Databases
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/20-databases.ipynb)
