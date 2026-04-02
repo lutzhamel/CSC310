@@ -109,7 +109,7 @@ Unsupervised Learning: Clustering
 <br>
 
 ### Midsemeter Review
-Unsupervised Learning: Clustering
+Midsemester Review
 [![Colab](https://raw.githubusercontent.com/lutzhamel/ds-assets/main/assets/colab-icon.png)](https://colab.research.google.com/github/lutzhamel/CSC310/blob/master/notes/midsemester-review.ipynb)
 <br>
 
